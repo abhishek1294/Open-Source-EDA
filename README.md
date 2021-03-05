@@ -1,2 +1,4 @@
 # open-source-vda
-Day1
+Introduction
+Soc/Physical Design Workshop
+
