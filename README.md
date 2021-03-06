@@ -8,9 +8,9 @@ It  design in such a simplified manner where I can learn concept ,take quizzes ,
 
 # DAY 1
 # Study and review various component of RISC-V based picoscoc
-IC design termonologies,opensource EDA tools and RISC-V based Soc design
+IC design termonologies,opensource EDA tools and RISC-V based Soc design  
 1-Introduction to QFN-48 package,chips,pad,core,die and IPs
-2-INTRODUCTION TO RISC-V
+2-INTRODUCTION TO RISC-V  
 3-From software application to hardware
 4-picorv32 and picosoc review
 5-Raven Soc and Raven chip review
