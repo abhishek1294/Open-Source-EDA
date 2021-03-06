@@ -7,9 +7,17 @@ It  design in such a simplified manner where I can learn concept ,take quizzes ,
 
 
 # DAY 1
-
-
-
+# Study and review various component of RISC-V based picoscoc
+IC design termonologies,opensource EDA tools and RISC-V based Soc design
+1-Introduction to QFN-48 package,chips,pad,core,die and IPs
+2-INTRODUCTION TO RISC-V
+3-From software application to hardware
+4-picorv32 and picosoc review
+5-Raven Soc and Raven chip review
+Introduction to IC design component and open source EDA tools
+7-Step to start synthesizing picorv32,report ratio(register count)
+8-Test open source EDA tool using sample design and vsdflow utility
+9-Steps to perform lab on Platform
 
 ![Screenshot 2021-03-03 205321](https://user-images.githubusercontent.com/10924505/110203453-60400500-7e94-11eb-8717-f9b8dea6471c.png)
 
