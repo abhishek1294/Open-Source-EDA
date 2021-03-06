@@ -47,7 +47,24 @@ IC design termonologies,opensource EDA tools and RISC-V based Soc design
 4-Pin placement and logical cell placement blockage  
 5-Pin arranagement and automatic grouping of vectors  
 6-Floor planning chips and floor planning labs  
+# Library binding and plcements  
+1-Netlist binding and initial place design  
+2-optimize placement using  estimated wire length and capacitance  
+3-Final placement optimization  
+4-Need for library and consideration  
+# Cell design and characterization flows
+1-Input for cell design  
+2-Circuit design steps  
+3-Layout design Steps  
+4-Typical characterization flow  
+# General timing characterization parameter
+1-Timing threshold definiton  
+2-Propagation delay and transition  
+
+
 ![Screenshot 2021-03-04 221835](https://user-images.githubusercontent.com/10924505/110203753-e14bcc00-7e95-11eb-97ab-e53c7dc886b8.png)
+
+
 
 
 
