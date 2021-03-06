@@ -26,9 +26,5 @@ It  design in such a simplified manner where I can learn concept ,take quizzes ,
 ![Screenshot 2021-03-03 223245](https://user-images.githubusercontent.com/10924505/110203520-aeed9f00-7e94-11eb-97f6-669e4d87f3e3.png)
 
 
-![Screenshot 2021-03-03 225215](https://user-images.githubusercontent.com/10924505/110203530-b9a83400-7e94-11eb-9249-4f02f1346ef9.png)
-
-
-
 ![Screenshot 2021-03-03 225906](https://user-images.githubusercontent.com/10924505/110203536-c0cf4200-7e94-11eb-82ba-36630565577a.png)
 
