@@ -70,6 +70,33 @@ IC design termonologies,opensource EDA tools and RISC-V based Soc design
 
 
 # DAY 3
+# Design and characterize one library cell using Magic layout tool and ngSpice
+# Labs for CMOS inverter ngspice simulation  
+1-Spice deck creation for CMOS inverter  
+2-Spice simulation lab for CMOS INverter  
+3-Switching threshold Vm  
+4-Static and Dynamic simulation of CMOS  
+# Art of layout using Euler's path plus stick diagram 
+1-Pre layout simulation of test circuit  
+2-Layout using only stick diagram  
+3-Euler's path for Fn-input gate reordering  
+4-Improved stick diagram for new input gate reordering  
+5-Abstract layout from stick diagram  
+# Lab for Magic and post-layout ngspice simulations
+1-Derive actual dimension for Fn  
+2-Script to create layout in magic  
+3-Final layout and input/output labelling  
+4-Post layout ngspice simulation  
+
+# Inception of layout CMOD fabrication process
+1-Create active region  
+2-Formation of n-well and p-well  
+3-Formation of gate  
+4-LDD formation  
+5-Source-drain formation  
+6-Local interconnect formation  
+7-Higher level metal formation  
+
 
 
 ![Screenshot 2021-03-05 170406](https://user-images.githubusercontent.com/10924505/110203794-16f0b500-7e96-11eb-85a4-c58620753da7.png)
