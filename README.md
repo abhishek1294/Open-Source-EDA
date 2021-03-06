@@ -14,7 +14,7 @@ IC design termonologies,opensource EDA tools and RISC-V based Soc design
 3-From software application to hardware
 4-picorv32 and picosoc review
 5-Raven Soc and Raven chip review
-Introduction to IC design component and open source EDA tools
+6-Introduction to IC design component and open source EDA tools
 7-Step to start synthesizing picorv32,report ratio(register count)
 8-Test open source EDA tool using sample design and vsdflow utility
 9-Steps to perform lab on Platform
@@ -38,6 +38,11 @@ Introduction to IC design component and open source EDA tools
 
 
 # DAY 2
+# Chip planning strategies and introduction to foundry library cells
+
+# Chip floor planning consideration
+Utilization factor and aspect ratio
+concept of pre-placed cells
 
 ![Screenshot 2021-03-04 221835](https://user-images.githubusercontent.com/10924505/110203753-e14bcc00-7e95-11eb-97ab-e53c7dc886b8.png)
 
