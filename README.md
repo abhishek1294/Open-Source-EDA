@@ -1,4 +1,4 @@
-# open-source-vda
+# open-source-eda
 # VSD Workshop performing the Physical Design  using the open-source tool
 
 # About the Workshop
