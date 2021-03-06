@@ -42,8 +42,11 @@ IC design termonologies,opensource EDA tools and RISC-V based Soc design
 
 # Chip floor planning consideration
 1-Utilization factor and aspect ratio  
-2-concept of pre-placed cells  
-
+2-concept of pre-placed cells    
+3-Decoupling capacitor and power planning    
+4-Pin placement and logical cell placement blockage  
+5-Pin arranagement and automatic grouping of vectors  
+6-Floor planning chips and floor planning labs  
 ![Screenshot 2021-03-04 221835](https://user-images.githubusercontent.com/10924505/110203753-e14bcc00-7e95-11eb-97ab-e53c7dc886b8.png)
 
 
