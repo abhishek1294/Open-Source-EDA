@@ -133,6 +133,26 @@ IC design termonologies,opensource EDA tools and RISC-V based Soc design
 
 # DAY 4
 
+# Pre layout Timing-analysis and importance of good clock tree
+
+# Timing modelling using delay table
+1-Introduction to delay table  
+2-Delay table usage  
+
+# Timing analysis with ideal clock
+1-Setup timing analysis and introduction to flip flop setup time  
+2-Introduction to clock jitter and uncertainity  
+
+# Clock tree synthesis and signal integrity
+1-Clock tree routing and buffering using H-tree algorithm  
+2-crosstalk and net shielding  
+
+# Timing analysis with real clock
+
+1-Setup timing analysing using real clock  
+2-Hold timing analysis using real clock  
+
+
 ![Screenshot 2021-03-06 115330](https://user-images.githubusercontent.com/10924505/110203921-8d8db280-7e96-11eb-940c-653fcc04958d.png)
 
 ![Screenshot 2021-03-06 120110](https://user-images.githubusercontent.com/10924505/110203929-97afb100-7e96-11eb-8572-633b77642675.png)
