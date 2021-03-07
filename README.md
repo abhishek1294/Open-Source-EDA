@@ -177,6 +177,46 @@ It  design in such a simplified manner where I can learn concept ,take quizzes ,
 ![Screenshot 2021-03-06 144532](https://user-images.githubusercontent.com/10924505/110204018-e78e7800-7e96-11eb-9b64-111bc807cffb.png)
 
 # DAY 5
+# Routing and design rule check(DRC)
+1-Introduction to maze routing  
+2-Lee's algoritm conclusion  
+3-Design rule check  
+4-Introduction to IEEE-1481--1999 SPEF format  
+5-SPEF representation of NET  
+6-Distributed resistance and capacitance in SPEF  
+7-SPEF header descrition  
+
+# PNR interactive flow tutorial
+
+1-Few tips on PIN placement and floor planning chip  
+2-Placement and pre-route STA  
+3-Routing and post route STA  
+
+
+![Screenshot 2021-03-07 120936](https://user-images.githubusercontent.com/10924505/110232091-ac954e80-7f41-11eb-83b3-a35227695c22.png)
+
+
+
+
+![Screenshot 2021-03-07 122323](https://user-images.githubusercontent.com/10924505/110232100-b74fe380-7f41-11eb-8880-c5d3859f067d.png)
+
+
+
+
+![Screenshot 2021-03-07 122217](https://user-images.githubusercontent.com/10924505/110232105-c171e200-7f41-11eb-897c-c0148cade2ea.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Acknowledgement  
 Kunal Ghosh -CO Founder VSD(VSD Corp.pvt.ltd)
 
