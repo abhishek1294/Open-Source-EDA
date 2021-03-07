@@ -206,13 +206,23 @@ It  design in such a simplified manner where I can learn concept ,take quizzes ,
 ![Screenshot 2021-03-07 122217](https://user-images.githubusercontent.com/10924505/110232105-c171e200-7f41-11eb-897c-c0148cade2ea.png)
 
 
+![Screenshot 2021-03-07 125115](https://user-images.githubusercontent.com/10924505/110232502-0a2a9a80-7f44-11eb-9dda-70be864f974c.png)
 
 
 
+![Screenshot 2021-03-07 123852](https://user-images.githubusercontent.com/10924505/110232505-131b6c00-7f44-11eb-9d29-cf2bc4302e11.png)
 
 
+![Screenshot 2021-03-07 124632](https://user-images.githubusercontent.com/10924505/110232515-1adb1080-7f44-11eb-81c9-3061e826532e.png)
 
 
+![Screenshot 2021-03-07 124814](https://user-images.githubusercontent.com/10924505/110232524-23334b80-7f44-11eb-9577-1044866132f3.png)
+
+
+![Screenshot 2021-03-07 124908](https://user-images.githubusercontent.com/10924505/110232544-40681a00-7f44-11eb-9728-2c5bcbf8c72e.png)
+
+
+![Screenshot 2021-03-07 125038](https://user-images.githubusercontent.com/10924505/110232549-4e1d9f80-7f44-11eb-8be1-7958db4660c5.png)
 
 
 
