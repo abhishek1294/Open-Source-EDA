@@ -26,7 +26,18 @@ Power planning during the Floorplanning phase is essential to lower noise in dig
 # Pin Placement  
 Pin placement is an essential part of floorplanning to minimize buffering and improve power consumption and timing delays. The goal of pin placement is to use the connectivity information of the HDL netlist to determine where along the I/O ring a specific pin should be placed. In many cases, optimal pin placement will be accompanied with less buffering and therefore less power consumption. After pin placement is formed we need to place logical cell blockages along the I/O ring to discriminate between the core area and I/O area.  
 
-2-INTRODUCTION TO RISC-V    
+2-INTRODUCTION TO RISC-V 
+
+RISC-V is an open standard instruction set architecture based on established reduced instruction set computer principles. It is provided under open-source license which gives it a huge advantage when compared to other commercial ISAs. It is a simple, stable, small standard base ISA with multiple standard extensions. It was developed in UC Berkeley.
+
+The RISC-V ISA is defined as a base integer ISA, which must be present in any implementation, plus optional extensions to the base ISA. The base RISC-V ISA has a little-endian memory system. The standard is maintained by the RISC-V foundation. 
+
+The base integer instructions as represented as RV32I/RV64I and they operate on integer numbers. Other extensions are as follows:
+
+RV64M - multiply extension
+RV64F and RV64D - single and double precision floating point extension
+A core with all the above extensions will be represented as RV64IMFD.  
+
 3-From software application to hardware  
 4-picorv32 and picosoc review  
 5-Raven Soc and Raven chip review  
