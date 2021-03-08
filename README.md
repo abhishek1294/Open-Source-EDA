@@ -25,7 +25,10 @@ A core with all the above extensions will be represented as RV64IMFD.
 
 3-From software application to hardware  
 4-picorv32 and picosoc review  
-5-Raven Soc and Raven chip review  
+5-Raven Soc and Raven chip review 
+
+Raven is using a very popular 32-bit RISC-V core (PicoRV32) developed by Clifford Wolf, a well-known open source champion. The core was previously proven with an FPGA implementation and Raven is the first SoC built with it. The system integrator is our own Tim Edwards, another champion in the open source domain.  
+
 6-Introduction to IC design component and open source EDA tools  
 7-Step to start synthesizing picorv32,report ratio(register count)  
 8-Test open source EDA tool using sample design and vsdflow utility  
