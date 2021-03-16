@@ -1,5 +1,5 @@
 # open-source-eda
-# VSD W0rksh0p performing the Physical Design  using the 0pen-source t00l
+# VSD W0rkshop performing the Physical Design  using the open-source tool
 
 # About the Workshop
  This workshop is basically gives me an overview of physical design using open-source tool.
@@ -32,7 +32,16 @@ Raven is using a very p0pular 32-bit RISC-V c0re (PicoRV32) devel0ped by Cliff0r
 6-Introduction to IC design c0mponent and 0pen s0urce EDA t00ls  
 7-Step to start synthesizing picorv32,report rati0(register count)  
 8-Test open source EDA t00l using sample design and vsdfl0w utility  
-9-Steps to perform lab on Platform  
+9-Steps to perform lab on Platform 
+
+In first day of lab we learn basics of linux command ,
+like how to make directory,how to copy directory using unix command.  
+make clone of git project and copy it on our own system.
+Using basics command like:
+mkdir-to make directory  
+cd ..-to change directory
+ltr-lts- to see list of files in particular folder
+
 
 ![Screenshot 2021-03-03 205321](https://user-images.githubusercontent.com/10924505/110203453-60400500-7e94-11eb-8717-f9b8dea6471c.png)
 
