@@ -58,7 +58,9 @@ we see basic vsdflow and run in the lab like preparation ,pin placement synthesi
 
 ![Screenshot 2021-03-03 223245](https://user-images.githubusercontent.com/10924505/110203520-aeed9f00-7e94-11eb-97f6-669e4d87f3e3.png)
 
-In this we calculate number of Flip flop to number of cells which is approximately equal to 14.28
+In this we calculate number of Flip flop to number of cells which is approximately equal to 14.28  
+
+
 ![Screenshot 2021-03-03 225906](https://user-images.githubusercontent.com/10924505/110203536-c0cf4200-7e94-11eb-82ba-36630565577a.png)
 
 
@@ -71,7 +73,7 @@ How placement and routing takes place we learn in this by putting some buffer.
 # Chip planning strategies and introduction to foundry library cells
 
 # Chip floor planning consideration
-# Aspect Ratio and Utilizati0n Factor  
+# Aspect Ratio and Utilization Factor  
 Tw0 key descripti0ns 0f a fl00rplan are utilizati0n and aspect rati0. The am0unt 0f area 0f the die c0re the standard cells are taking up is called utilizati0n. N0rmally we g0 f0r 50-70% utilizati0n t0, 0r utilizati0n fact0r 0f 0.5-0.7. Keeping within this range all0ws f0r 0ptimizati0n 0f placement and realizable r0uting 0f a system. Aspect rati0 can specify the shape 0f y0ur chip by the height 0f the c0re area divided by the width 0f the c0re area. An aspect rati0 0f 1 discribes the chip as a square.  
 
 
