@@ -71,17 +71,17 @@ How placement and routing takes place we learn in this by putting some buffer.
 # Chip planning strategies and introduction to foundry library cells
 
 # Chip floor planning consideration
-# Aspect Rati0 and Utilizati0n Fact0r  
+# Aspect Ratio and Utilizati0n Factor  
 Tw0 key descripti0ns 0f a fl00rplan are utilizati0n and aspect rati0. The am0unt 0f area 0f the die c0re the standard cells are taking up is called utilizati0n. N0rmally we g0 f0r 50-70% utilizati0n t0, 0r utilizati0n fact0r 0f 0.5-0.7. Keeping within this range all0ws f0r 0ptimizati0n 0f placement and realizable r0uting 0f a system. Aspect rati0 can specify the shape 0f y0ur chip by the height 0f the c0re area divided by the width 0f the c0re area. An aspect rati0 0f 1 discribes the chip as a square.  
 
 
 # Preplaced Cells  
 Preplaced cells, 0r MACR0’s, are imp0rtant t0 enable hierarchical PnR fl0w. Preplaced cells enable VLSI engineers t0 granularize a larger design. In fl00rplanning we define l0cati0ns and bl0ckages f0r preplaced cells. Bl0ckages are needed t0 ensure n0 standard cells are mapped where the placeplaced cells are l0cated.
 
-# Dec0upling Capacit0rs  
+# Decoupling Capacitors  
 Dec0upling capacit0rs are placed l0cal t0 preplaced cells during Fl00rplanning. V0ltage dr0ps ass0ciated with interc0nnect wires can heavily affect 0ur n0ise margin 0r put it int0 an indeterminate state. Dec0upling capacit0r is a big capacit0r l0cated next t0 the macr0s t0 fix this pr0blem. The capacit0r will charge up t0 the p0wer supply v0ltage 0ver time and it will w0rk as a charge reserv0ir when a transiti0n is needed by the circuit instead 0f the charge c0ming fr0m the p0wer supply. Theref0re it “dec0uples” the circuit fr0m the main supply. The capacit0r acts like the p0wer supply.  
 
-# P0wer Planning  
+# Power Planning  
 P0wer planning during the Fl00rplanning phase is essential t0 l0wer n0ise in digital circuits attributed t0 v0ltage dr00p and gr0und b0unce. C0upling capacitance is f0rmed between interc0nnect wires and the substrate which needs t0 be charged 0r discharged t0 represent either l0gic 1 0r l0gic 0. When a transiti0n 0ccurs 0n a net, charge ass0ciated with c0upling capacit0rs may be dumped t0 gr0und. If there are n0t en0ugh gr0und taps charge will accumulate at the tap and the gr0und line will act like a large resist0r, raising the gr0und v0ltage and l0wering 0ur n0ise margin. T0 bypass this pr0blem a r0bust PDN with many p0wer strap taps are needed t0 l0wer the resistance ass0ciated with the PDN.  
 
 # Pin Placement 
@@ -93,7 +93,7 @@ Pin placement is an essential part 0f fl00rplanning t0 minimize buffering and im
 2-0ptimize placement using  estimated wire length and capacitance  
 3-Final placement 0ptimizati0n  
 4-Need f0r library and c0nsiderati0n  
-# Cell design and characterizati0n fl0ws
+# Cell design and characterization flows
 1-Input f0r cell design  
 2-Circuit design steps  
 3-Lay0ut design Steps  
@@ -228,6 +228,8 @@ We used various load capacitor and plot its graph.
 
 # DAY 5
 # Routing and design rule check(DRC)
+Various SPEF specification for capacitor,inductor,resistor we learn in this.
+And also specification for lumped and distributed resistors.
 1-Introduction to maze routing  
 2-Lee's algoritm conclusion  
 3-Design rule check  
@@ -237,7 +239,7 @@ We used various load capacitor and plot its graph.
 7-SPEF header descrition  
 
 # PNR interactive flow tutorial
-
+Pin placement we can do in qflow manager .
 1-Few tips on PIN placement and floor planning chip  
 2-Placement and pre-route STA  
 3-Routing and post route STA  
