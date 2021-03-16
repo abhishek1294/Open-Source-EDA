@@ -40,8 +40,9 @@ make clone of git project and copy it on our own system.
 Using basics command like:
 mkdir-to make directory  
 cd ..-to change directory
-ltr-lts- to see list of files in particular folder
+ltr-lts- to see list of files in particular folder  
 
+we see basic vsdflow and run in the lab like preparation ,pin placement synthesis etc.
 
 ![Screenshot 2021-03-03 205321](https://user-images.githubusercontent.com/10924505/110203453-60400500-7e94-11eb-8717-f9b8dea6471c.png)
 
