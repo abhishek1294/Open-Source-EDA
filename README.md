@@ -58,7 +58,7 @@ we see basic vsdflow and run in the lab like preparation ,pin placement synthesi
 
 ![Screenshot 2021-03-03 223245](https://user-images.githubusercontent.com/10924505/110203520-aeed9f00-7e94-11eb-97f6-669e4d87f3e3.png)
 
-
+In this we calculate number of Flip flop to number of cells which is approximately equal to 14.28
 ![Screenshot 2021-03-03 225906](https://user-images.githubusercontent.com/10924505/110203536-c0cf4200-7e94-11eb-82ba-36630565577a.png)
 
 
