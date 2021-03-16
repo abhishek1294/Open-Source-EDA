@@ -63,6 +63,11 @@ we see basic vsdflow and run in the lab like preparation ,pin placement synthesi
 
 
 # DAY 2
+In this we learn about synthesis and pin placement .
+here we can positin the cell according to our need by making a group in which we want to place upper,lower mright ,left.
+Synthesis process takes about more than half an hour .
+
+How placement and routing takes place we learn in this by putting some buffer.  
 # Chip planning strategies and introduction to foundry library cells
 
 # Chip floor planning consideration
@@ -79,7 +84,8 @@ Dec0upling capacit0rs are placed l0cal t0 preplaced cells during Fl00rplanning. 
 # P0wer Planning  
 P0wer planning during the Fl00rplanning phase is essential t0 l0wer n0ise in digital circuits attributed t0 v0ltage dr00p and gr0und b0unce. C0upling capacitance is f0rmed between interc0nnect wires and the substrate which needs t0 be charged 0r discharged t0 represent either l0gic 1 0r l0gic 0. When a transiti0n 0ccurs 0n a net, charge ass0ciated with c0upling capacit0rs may be dumped t0 gr0und. If there are n0t en0ugh gr0und taps charge will accumulate at the tap and the gr0und line will act like a large resist0r, raising the gr0und v0ltage and l0wering 0ur n0ise margin. T0 bypass this pr0blem a r0bust PDN with many p0wer strap taps are needed t0 l0wer the resistance ass0ciated with the PDN.  
 
-# Pin Placement  
+# Pin Placement 
+This we can make by apply auto group or we can make our own group.
 Pin placement is an essential part 0f fl00rplanning t0 minimize buffering and impr0ve p0wer c0nsumpti0n and timing delays. The g0al 0f pin placement is t0 use the c0nnectivity inf0rmati0n 0f the HDL netlist t0 determine where al0ng the I/0 ring a specific pin sh0uld be placed. In many cases, 0ptimal pin placement will be acc0mpanied with less buffering and theref0re less p0wer c0nsumpti0n. After pin placement is f0rmed we need t0 place l0gical cell bl0ckages al0ng the I/0 ring t0 discriminate between the c0re area and I/0 area.
 
 # Library binding and plcements  
@@ -93,6 +99,8 @@ Pin placement is an essential part 0f fl00rplanning t0 minimize buffering and im
 3-Lay0ut design Steps  
 4-Typical characterizati0n fl0w  
 # General timing characterizati0n parameter
+Timing is most important in physical design.  
+IN this we discuss about set up time and hold time.
 1-Timing thresh0ld definit0n  
 2-Pr0pagati0n delay and transiti0n  
 
@@ -110,6 +118,10 @@ Pin placement is an essential part 0f fl00rplanning t0 minimize buffering and im
 # DAY 3
 # Design and characterize one library cell using Magic layout tool and ngSpice
 # Labs for CMOS inverter ngspice simulation  
+Cmos is a robust device thats why it is use in chip fabrication. In this how we make cmos .N well and P well on p type substrate.
+
+we learn ngspice simulation and magic tool in this class.  
+We used various load capacitor and plot its graph.
 1-Spice deck creation for CMOS inverter  
 2-Spice simulation lab for CMOS INverter  
 3-Switching threshold Vm  
