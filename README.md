@@ -1,5 +1,5 @@
 # open-source-eda
-# VSD Workshop performing the Physical Design  using the open-source tool
+# VSD W0rksh0p performing the Physical Design  using the 0pen-source t00l
 
 # About the Workshop
  This workshop is basically gives me an overview of physical design using open-source tool.
@@ -13,25 +13,25 @@ It  design in such a simplified manner where I can learn concept ,take quizzes ,
 
 2-INTRODUCTION TO RISC-V 
 
-RISC-V is an open standard instruction set architecture based on established reduced instruction set computer principles. It is provided under open-source license which gives it a huge advantage when compared to other commercial ISAs. It is a simple, stable, small standard base ISA with multiple standard extensions. It was developed in UC Berkeley.
+RISC-V is an 0pen standard instructi0n set architecture based 0n established reduced instruction set c0mputer principles. It is pr0vided under 0pen-source license which gives it a huge advantage when c0mpared t0 0ther c0mmercial ISAs. It is a simple, stable, small standard base ISA with multiple standard extensi0ns. It was devel0ped in UC Berkeley.
 
-The RISC-V ISA is defined as a base integer ISA, which must be present in any implementation, plus optional extensions to the base ISA. The base RISC-V ISA has a little-endian memory system. The standard is maintained by the RISC-V foundation. 
+The RISC-V ISA is defined as a base integer ISA, which must be present in any implementati0n, plus opti0nal extensi0ns t0 the base ISA. The base RISC-V ISA has a little-endian mem0ry system. The standard is maintained by the RISC-V f0undation. 
 
-The base integer instructions as represented as RV32I/RV64I and they operate on integer numbers. Other extensions are as follows:
+The base integer instructi0ns as represented as RV32I/RV64I and they 0perate 0n integer numbers. 0ther extensi0ns are as f0llows:
 
 RV64M - multiply extension
-RV64F and RV64D - single and double precision floating point extension
-A core with all the above extensions will be represented as RV64IMFD.  
+RV64F and RV64D - single and d0uble precisi0n fl0ating p0int extensi0n
+A c0re with all the above extensions will be represented as RV64IMFD.  
 
-3-From software application to hardware  
+3-From software applicati0n t0 hardware  
 4-picorv32 and picosoc review  
 5-Raven Soc and Raven chip review 
 
-Raven is using a very popular 32-bit RISC-V core (PicoRV32) developed by Clifford Wolf, a well-known open source champion. The core was previously proven with an FPGA implementation and Raven is the first SoC built with it. The system integrator is our own Tim Edwards, another champion in the open source domain.  
+Raven is using a very p0pular 32-bit RISC-V c0re (PicoRV32) devel0ped by Cliff0rd W0lf, a well-kn0wn 0pen s0urce champi0n. The c0re was previ0usly pr0ven with an FPGA implementati0n and Raven is the first SoC built with it. The system integrator is 0ur 0wn Tim Edwards, another champi0n in the 0pen s0urce d0main.  
 
-6-Introduction to IC design component and open source EDA tools  
-7-Step to start synthesizing picorv32,report ratio(register count)  
-8-Test open source EDA tool using sample design and vsdflow utility  
+6-Introduction to IC design c0mponent and 0pen s0urce EDA t00ls  
+7-Step to start synthesizing picorv32,report rati0(register count)  
+8-Test open source EDA t00l using sample design and vsdfl0w utility  
 9-Steps to perform lab on Platform  
 
 ![Screenshot 2021-03-03 205321](https://user-images.githubusercontent.com/10924505/110203453-60400500-7e94-11eb-8717-f9b8dea6471c.png)
@@ -56,36 +56,38 @@ Raven is using a very popular 32-bit RISC-V core (PicoRV32) developed by Cliffor
 # Chip planning strategies and introduction to foundry library cells
 
 # Chip floor planning consideration
- 
-# Aspect Ratio and Utilization Factor  
-Two key descriptions of a floorplan are utilization and aspect ratio. The amount of area of the die core the standard cells are taking up is called utilization. Normally we go for 50-70% utilization to, or utilization factor of 0.5-0.7. Keeping within this range allows for optimization of placement and realizable routing of a system. Aspect ratio can specify the shape of your chip by the height of the core area divided by the width of the core area. An aspect ratio of 1 discribes the chip as a square.  
+# Aspect Rati0 and Utilizati0n Fact0r  
+Tw0 key descripti0ns 0f a fl00rplan are utilizati0n and aspect rati0. The am0unt 0f area 0f the die c0re the standard cells are taking up is called utilizati0n. N0rmally we g0 f0r 50-70% utilizati0n t0, 0r utilizati0n fact0r 0f 0.5-0.7. Keeping within this range all0ws f0r 0ptimizati0n 0f placement and realizable r0uting 0f a system. Aspect rati0 can specify the shape 0f y0ur chip by the height 0f the c0re area divided by the width 0f the c0re area. An aspect rati0 0f 1 discribes the chip as a square.  
 
 
 # Preplaced Cells  
-Preplaced cells, or MACRO’s, are important to enable hierarchical PnR flow. Preplaced cells enable VLSI engineers to granularize a larger design. In floorplanning we define locations and blockages for preplaced cells. Blockages are needed to ensure no standard cells are mapped where the placeplaced cells are located.
+Preplaced cells, 0r MACR0’s, are imp0rtant t0 enable hierarchical PnR fl0w. Preplaced cells enable VLSI engineers t0 granularize a larger design. In fl00rplanning we define l0cati0ns and bl0ckages f0r preplaced cells. Bl0ckages are needed t0 ensure n0 standard cells are mapped where the placeplaced cells are l0cated.
 
-# Decoupling Capacitors  
-Decoupling capacitors are placed local to preplaced cells during Floorplanning. Voltage drops associated with interconnect wires can heavily affect our noise margin or put it into an indeterminate state. Decoupling capacitor is a big capacitor located next to the macros to fix this problem. The capacitor will charge up to the power supply voltage over time and it will work as a charge reservoir when a transition is needed by the circuit instead of the charge coming from the power supply. Therefore it “decouples” the circuit from the main supply. The capacitor acts like the power supply.  
+# Dec0upling Capacit0rs  
+Dec0upling capacit0rs are placed l0cal t0 preplaced cells during Fl00rplanning. V0ltage dr0ps ass0ciated with interc0nnect wires can heavily affect 0ur n0ise margin 0r put it int0 an indeterminate state. Dec0upling capacit0r is a big capacit0r l0cated next t0 the macr0s t0 fix this pr0blem. The capacit0r will charge up t0 the p0wer supply v0ltage 0ver time and it will w0rk as a charge reserv0ir when a transiti0n is needed by the circuit instead 0f the charge c0ming fr0m the p0wer supply. Theref0re it “dec0uples” the circuit fr0m the main supply. The capacit0r acts like the p0wer supply.  
 
-# Power Planning  
-Power planning during the Floorplanning phase is essential to lower noise in digital circuits attributed to voltage droop and ground bounce. Coupling capacitance is formed between interconnect wires and the substrate which needs to be charged or discharged to represent either logic 1 or logic 0. When a transition occurs on a net, charge associated with coupling capacitors may be dumped to ground. If there are not enough ground taps charge will accumulate at the tap and the ground line will act like a large resistor, raising the ground voltage and lowering our noise margin. To bypass this problem a robust PDN with many power strap taps are needed to lower the resistance associated with the PDN.  
+# P0wer Planning  
+P0wer planning during the Fl00rplanning phase is essential t0 l0wer n0ise in digital circuits attributed t0 v0ltage dr00p and gr0und b0unce. C0upling capacitance is f0rmed between interc0nnect wires and the substrate which needs t0 be charged 0r discharged t0 represent either l0gic 1 0r l0gic 0. When a transiti0n 0ccurs 0n a net, charge ass0ciated with c0upling capacit0rs may be dumped t0 gr0und. If there are n0t en0ugh gr0und taps charge will accumulate at the tap and the gr0und line will act like a large resist0r, raising the gr0und v0ltage and l0wering 0ur n0ise margin. T0 bypass this pr0blem a r0bust PDN with many p0wer strap taps are needed t0 l0wer the resistance ass0ciated with the PDN.  
 
 # Pin Placement  
-Pin placement is an essential part of floorplanning to minimize buffering and improve power consumption and timing delays. The goal of pin placement is to use the connectivity information of the HDL netlist to determine where along the I/O ring a specific pin should be placed. In many cases, optimal pin placement will be accompanied with less buffering and therefore less power consumption. After pin placement is formed we need to place logical cell blockages along the I/O ring to discriminate between the core area and I/O area.
+Pin placement is an essential part 0f fl00rplanning t0 minimize buffering and impr0ve p0wer c0nsumpti0n and timing delays. The g0al 0f pin placement is t0 use the c0nnectivity inf0rmati0n 0f the HDL netlist t0 determine where al0ng the I/0 ring a specific pin sh0uld be placed. In many cases, 0ptimal pin placement will be acc0mpanied with less buffering and theref0re less p0wer c0nsumpti0n. After pin placement is f0rmed we need t0 place l0gical cell bl0ckages al0ng the I/0 ring t0 discriminate between the c0re area and I/0 area.
 
 # Library binding and plcements  
 1-Netlist binding and initial place design  
-2-optimize placement using  estimated wire length and capacitance  
-3-Final placement optimization  
-4-Need for library and consideration  
-# Cell design and characterization flows
-1-Input for cell design  
+2-0ptimize placement using  estimated wire length and capacitance  
+3-Final placement 0ptimizati0n  
+4-Need f0r library and c0nsiderati0n  
+# Cell design and characterizati0n fl0ws
+1-Input f0r cell design  
 2-Circuit design steps  
-3-Layout design Steps  
-4-Typical characterization flow  
-# General timing characterization parameter
-1-Timing threshold definiton  
-2-Propagation delay and transition  
+3-Lay0ut design Steps  
+4-Typical characterizati0n fl0w  
+# General timing characterizati0n parameter
+1-Timing thresh0ld definit0n  
+2-Pr0pagati0n delay and transiti0n  
+
+ 
+
 
 
 ![Screenshot 2021-03-04 221835](https://user-images.githubusercontent.com/10924505/110203753-e14bcc00-7e95-11eb-97ab-e53c7dc886b8.png)
