@@ -1,5 +1,5 @@
 # open-source-eda
-# VSD W0rkshop performing the Physical Design  using the open-source tool
+# VSD Workshop performing the Physical Design  using the open-source tool
 
 # About the Workshop
  This workshop is basically gives me an overview of physical design using open-source tool.
